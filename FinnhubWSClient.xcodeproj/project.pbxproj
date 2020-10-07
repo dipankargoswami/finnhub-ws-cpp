@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726BBECB252E12DD003B7CBF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 726BBECA252E12DD003B7CBF /* main.cpp */; };
+		726BBED5252E14DC003B7CBF /* FinnHubWSSession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 726BBED3252E14DC003B7CBF /* FinnHubWSSession.cpp */; };
+		726BBEE2252E272D003B7CBF /* finnhubws.cfg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 726BBEE1252E269C003B7CBF /* finnhubws.cfg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		726BBEC5252E12DC003B7CBF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				726BBEE2252E272D003B7CBF /* finnhubws.cfg in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		726BBEC7252E12DD003B7CBF /* FinnhubWSClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinnhubWSClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		726BBECA252E12DD003B7CBF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		726BBED3252E14DC003B7CBF /* FinnHubWSSession.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FinnHubWSSession.cpp; sourceTree = "<group>"; };
+		726BBED4252E14DC003B7CBF /* FinnHubWSSession.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FinnHubWSSession.hpp; sourceTree = "<group>"; };
+		726BBEE1252E269C003B7CBF /* finnhubws.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = finnhubws.cfg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726BBEC4252E12DC003B7CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726BBEBE252E12DC003B7CBF = {
+			isa = PBXGroup;
+			children = (
+				726BBEC9252E12DD003B7CBF /* FinnhubWSClient */,
+				726BBEC8252E12DD003B7CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		726BBEC8252E12DD003B7CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726BBEC7252E12DD003B7CBF /* FinnhubWSClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726BBEC9252E12DD003B7CBF /* FinnhubWSClient */ = {
+			isa = PBXGroup;
+			children = (
+				726BBEE1252E269C003B7CBF /* finnhubws.cfg */,
+				726BBECA252E12DD003B7CBF /* main.cpp */,
+				726BBED3252E14DC003B7CBF /* FinnHubWSSession.cpp */,
+				726BBED4252E14DC003B7CBF /* FinnHubWSSession.hpp */,
+			);
+			path = FinnhubWSClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726BBEC6252E12DC003B7CBF /* FinnhubWSClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726BBECE252E12DD003B7CBF /* Build configuration list for PBXNativeTarget "FinnhubWSClient" */;
+			buildPhases = (
+				726BBEC3252E12DC003B7CBF /* Sources */,
+				726BBEC4252E12DC003B7CBF /* Frameworks */,
+				726BBEC5252E12DC003B7CBF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinnhubWSClient;
+			productName = FinnhubWSClient;
+			productReference = 726BBEC7252E12DD003B7CBF /* FinnhubWSClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726BBEBF252E12DC003B7CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					726BBEC6252E12DC003B7CBF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 726BBEC2252E12DC003B7CBF /* Build configuration list for PBXProject "FinnhubWSClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 726BBEBE252E12DC003B7CBF;
+			productRefGroup = 726BBEC8252E12DD003B7CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726BBEC6252E12DC003B7CBF /* FinnhubWSClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726BBEC3252E12DC003B7CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726BBECB252E12DD003B7CBF /* main.cpp in Sources */,
+				726BBED5252E14DC003B7CBF /* FinnHubWSSession.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		726BBECC252E12DD003B7CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		726BBECD252E12DD003B7CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		726BBECF252E12DD003B7CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/cpprestsdk/2.10.16/include,
+					/usr/local/Cellar/boost/1.73.0/include,
+					"/usr/local/Cellar/openssl\\@1.1/1.1.1g/include/",
+					/usr/local/Cellar/jsoncpp/1.9.3/include/,
+				);
+				OTHER_LDFLAGS = (
+					"-lcpprest",
+					"-lssl",
+					"-lcrypto",
+					"-lboost_system",
+					"-lboost_thread-mt",
+					"-lboost_chrono-mt",
+					"-ljsoncpp",
+					"-lboost_program_options-mt",
+					"-L/usr/local/Cellar/boost/1.73.0/lib",
+					"-L/usr/local/Cellar/cpprestsdk/2.10.16/lib",
+					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1g/lib",
+					"-L/usr/local/Cellar/jsoncpp/1.9.3/lib/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		726BBED0252E12DD003B7CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/cpprestsdk/2.10.16/include,
+					/usr/local/Cellar/boost/1.73.0/include,
+					"/usr/local/Cellar/openssl\\@1.1/1.1.1g/include/",
+					/usr/local/Cellar/jsoncpp/1.9.3/include/,
+				);
+				OTHER_LDFLAGS = (
+					"-lcpprest",
+					"-lssl",
+					"-lcrypto",
+					"-lboost_system",
+					"-lboost_thread-mt",
+					"-lboost_chrono-mt",
+					"-ljsoncpp",
+					"-lboost_program_options-mt",
+					"-L/usr/local/Cellar/boost/1.73.0/lib",
+					"-L/usr/local/Cellar/cpprestsdk/2.10.16/lib",
+					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1g/lib",
+					"-L/usr/local/Cellar/jsoncpp/1.9.3/lib/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726BBEC2252E12DC003B7CBF /* Build configuration list for PBXProject "FinnhubWSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726BBECC252E12DD003B7CBF /* Debug */,
+				726BBECD252E12DD003B7CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726BBECE252E12DD003B7CBF /* Build configuration list for PBXNativeTarget "FinnhubWSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726BBECF252E12DD003B7CBF /* Debug */,
+				726BBED0252E12DD003B7CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 726BBEBF252E12DC003B7CBF /* Project object */;
+}
