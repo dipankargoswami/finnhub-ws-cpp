@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -105,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = 726BBEC2252E12DC003B7CBF /* Build configuration list for PBXProject "FinnhubWSClient" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -253,11 +253,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
-					/usr/local/Cellar/cpprestsdk/2.10.16/include,
-					/usr/local/Cellar/boost/1.73.0/include,
-					"/usr/local/Cellar/openssl\\@1.1/1.1.1g/include/",
-					/usr/local/Cellar/jsoncpp/1.9.3/include/,
+					/usr/local/Cellar/cpprestsdk/2.10.18/include,
+					/usr/local/Cellar/boost/1.78.0_1/include,
+					"/usr/local/Cellar/openssl\\@1.1/1.1.1o/include/",
+					/usr/local/Cellar/jsoncpp/1.9.5/include/,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				OTHER_LDFLAGS = (
 					"-lcpprest",
 					"-lssl",
@@ -267,10 +268,10 @@
 					"-lboost_chrono-mt",
 					"-ljsoncpp",
 					"-lboost_program_options-mt",
-					"-L/usr/local/Cellar/boost/1.73.0/lib",
-					"-L/usr/local/Cellar/cpprestsdk/2.10.16/lib",
-					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1g/lib",
-					"-L/usr/local/Cellar/jsoncpp/1.9.3/lib/",
+					"-L/usr/local/Cellar/boost/1.78.0_1/lib",
+					"-L/usr/local/Cellar/cpprestsdk/2.10.18/lib",
+					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1o/lib",
+					"-L/usr/local/Cellar/jsoncpp/1.9.5/lib/",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -283,11 +284,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
-					/usr/local/Cellar/cpprestsdk/2.10.16/include,
-					/usr/local/Cellar/boost/1.73.0/include,
-					"/usr/local/Cellar/openssl\\@1.1/1.1.1g/include/",
-					/usr/local/Cellar/jsoncpp/1.9.3/include/,
+					/usr/local/Cellar/cpprestsdk/2.10.18/include,
+					/usr/local/Cellar/boost/1.78.0_1/include,
+					"/usr/local/Cellar/openssl\\@1.1/1.1.1o/include/",
+					/usr/local/Cellar/jsoncpp/1.9.5/include/,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				OTHER_LDFLAGS = (
 					"-lcpprest",
 					"-lssl",
@@ -297,10 +299,10 @@
 					"-lboost_chrono-mt",
 					"-ljsoncpp",
 					"-lboost_program_options-mt",
-					"-L/usr/local/Cellar/boost/1.73.0/lib",
-					"-L/usr/local/Cellar/cpprestsdk/2.10.16/lib",
-					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1g/lib",
-					"-L/usr/local/Cellar/jsoncpp/1.9.3/lib/",
+					"-L/usr/local/Cellar/boost/1.78.0_1/lib",
+					"-L/usr/local/Cellar/cpprestsdk/2.10.18/lib",
+					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1o/lib",
+					"-L/usr/local/Cellar/jsoncpp/1.9.5/lib/",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
