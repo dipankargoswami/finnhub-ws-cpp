@@ -21,6 +21,7 @@ public:
 private:
     pplx::task<void> RequestJSONValueAsync();
 
+    std::shared_ptr<spdlog::logger> logger_;
     web::websockets::client::websocket_client finnhubWSClient_;
     std::string token_;
     std::vector<std::string> subscriptions_;

@@ -257,6 +257,8 @@
 					/usr/local/Cellar/boost/1.78.0_1/include,
 					"/usr/local/Cellar/openssl\\@1.1/1.1.1o/include/",
 					/usr/local/Cellar/jsoncpp/1.9.5/include/,
+					/usr/local/Cellar/spdlog/1.10.0/include/,
+					/usr/local/Cellar/fmt/8.1.1_1/include/,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				OTHER_LDFLAGS = (
@@ -272,6 +274,7 @@
 					"-L/usr/local/Cellar/cpprestsdk/2.10.18/lib",
 					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1o/lib",
 					"-L/usr/local/Cellar/jsoncpp/1.9.5/lib/",
+					/usr/local/Cellar/fmt/8.1.1_1/lib/libfmt.a,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -288,6 +291,8 @@
 					/usr/local/Cellar/boost/1.78.0_1/include,
 					"/usr/local/Cellar/openssl\\@1.1/1.1.1o/include/",
 					/usr/local/Cellar/jsoncpp/1.9.5/include/,
+					/usr/local/Cellar/spdlog/1.10.0/include/,
+					/usr/local/Cellar/fmt/8.1.1_1/include/,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				OTHER_LDFLAGS = (
@@ -303,6 +308,7 @@
 					"-L/usr/local/Cellar/cpprestsdk/2.10.18/lib",
 					"-L/usr/local/Cellar/openssl\\@1.1/1.1.1o/lib",
 					"-L/usr/local/Cellar/jsoncpp/1.9.5/lib/",
+					/usr/local/Cellar/fmt/8.1.1_1/lib/libfmt.a,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

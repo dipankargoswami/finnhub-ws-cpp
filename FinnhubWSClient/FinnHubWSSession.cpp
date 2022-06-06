@@ -9,6 +9,8 @@
 #include <json/json.h>
 #include <json/reader.h>
 
+#include "spdlog/spdlog.h"
+
 #include "FinnHubWSSession.hpp"
 
 namespace po = boost::program_options;
@@ -16,6 +18,8 @@ namespace po = boost::program_options;
 using namespace web::websockets::client;
 
 FinnHubWSSession::FinnHubWSSession(std::string fileName) {
+    logger_ = spdlog::get("daily_logger");
+
     po::options_description config("Configuration");
     config.add_options()
         ("API_Token", po::value<std::string>()->default_value(""), "API Key assigned by Finnhub");
@@ -33,7 +37,7 @@ FinnHubWSSession::FinnHubWSSession(std::string fileName) {
     token_ = vm["API_Token"].as<std::string>();
     
     for(auto symbol:vm["Symbol_List"].as<std::vector<std::string> >()) {
-        std::cout << "Subscribing to the symbol [" << symbol << ']' << std::endl;
+        logger_->info("Subscribing to the symbol [{}]",symbol);
         subscriptions_.push_back("{\"type\":\"subscribe\",\"symbol\":\"" + symbol +"\"}");
     }
 }
@@ -66,7 +70,8 @@ pplx::task<void> FinnHubWSSession::RequestJSONValueAsync()
     return finnhubWSClient_.receive().then([body_str](websocket_incoming_message ret_msg) {
         auto msg = ret_msg.extract_string().get();
 
-        std::cout << msg << std::endl; //Logging raw message is mandated by finnhub
+        std::shared_ptr<spdlog::logger> logger = spdlog::get("daily_logger");
+        logger->info("Received Message {}", msg); //Logging raw message is mandated by finnhub
 
         JSONCPP_STRING err;
         Json::Value root;
